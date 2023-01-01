@@ -1,0 +1,30 @@
+.btncontainer {
+	display: flex;
+	justify-content: center;	
+}
+
+.addtocart, .backtoproducts, .gotocart, .checkitout, .gotoregister, .trashallitems {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #ff6700;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.trashcontainer {
+  display: flex;
+	justify-content:flex-end ;
+}
+
+.trashallitems {
+  width: 200px;
+  background: rgb(72, 46, 4);
+  display: flex;
+	justify-content:space-around;	
+  align-items: center;
+}

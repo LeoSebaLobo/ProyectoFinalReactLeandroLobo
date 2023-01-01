@@ -1,0 +1,36 @@
+.count {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.number {
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+.control__btn {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.control__btn:hover {
+  background-color:#ff6700;
+  color: rgb(255, 255, 255);
+  border: 1px solid #ff6700;
+}

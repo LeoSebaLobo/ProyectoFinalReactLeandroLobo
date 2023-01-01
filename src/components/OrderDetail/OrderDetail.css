@@ -1,0 +1,59 @@
+.name {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 1.8em;
+}
+
+.greeting {
+  font-size: 21px;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 1.2px
+}
+
+.king {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  display: "flex";
+}
+
+.card {
+  width: 650px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  padding: 30px;
+  float: left;
+  width: 50%;
+  border-left: 2px solid #efefef;
+  text-align: center;
+}
+
+.description h1 {
+  color: #515151;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.description h2 {
+  color: #515151;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.description1 {
+  padding: 30px;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
